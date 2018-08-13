@@ -22,7 +22,6 @@ function uploadFile() {
 }
 
 function getFile(fileName) {
-
     /* set up XMLHttpRequest */
     var url = "excels/" + fileName;
     var worksheetNumber = $("#worksheet-number").val();
